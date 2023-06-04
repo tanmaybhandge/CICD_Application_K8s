@@ -72,7 +72,7 @@ jobs:
           sed -i "s+tanmay238/images.*+tanmay238/images:app-$RUN_NUMBER+g" deployment.yaml
           cat deployment.yaml
           git add .
-          git commit -m 'Done  by Jenkin   Job changemanifest: ${{ github.run_number }}'
+          git commit -m 'Done  by Github Actions   Job changemanifest: ${{ github.run_number }}'
           git push origin main
         env:
           GIT_USERNAME: ${{ secrets.GIT_USERNAME }}
