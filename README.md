@@ -1,1 +1,1 @@
-App works on TCP 5000 port..
+App works on TCP 5000 port.
